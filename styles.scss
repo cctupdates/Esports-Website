@@ -316,3 +316,160 @@ body {
 		grid-template-rows: 1fr;
 	}
 }
+
+// <!-- header code here -->
+    
+.header__carousel {
+	width: 100vw;
+	height: 100vh;
+	margin-top: -5em;
+	position: relative;
+
+	.carousel__controller {
+		display: flex;
+		align-items: center;
+		position: absolute;
+		bottom: 10%;
+		color: whitesmoke;
+		margin-left: 150px;
+		width: 200px;
+		z-index: 10;
+
+		& > * {
+			flex: 0.2;
+		}
+
+		div {
+			display: grid;
+			place-items: center;
+			padding: 5px;
+			transform: skewX(-20deg);
+			background-color: #094fcd;
+			cursor: pointer;
+			font-weight: 600;
+			transition: all 0.3s ease;
+			margin: 0 5px;
+
+			&:hover {
+				transform: skewX(-20deg) scale(1.1);
+			}
+			& > * {
+				transform: skewX(20deg);
+			}
+		}
+
+		button {
+			border: none;
+			outline: none;
+			color: inherit;
+			background: inherit;
+			margin: 5px;
+			font-size: 1.5em;
+			cursor: pointer;
+		}
+	}
+
+	.header_social_links {
+		position: absolute;
+		bottom: 10%;
+		left: 0%;
+		display: flex;
+		margin-left: 30px;
+		margin-bottom: 5px;
+		height: 100px;
+		z-index: 10;
+		font-size: 1.2em;
+		justify-content: space-between;
+		flex-direction: column;
+
+		a {
+			color: white;
+		}
+	}
+
+	.carousel_cards_wrapper {
+		height: 100%;
+		display: flex;
+		overflow: scroll;
+		scroll-behavior: smooth;
+		scroll-snap-type: x mandatory;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
+
+		.carousel__cards {
+			height: 100vh;
+			min-width: 100vw;
+			position: relative;
+			background-repeat: no-repeat;
+			background-size: cover;
+			scroll-snap-align: start;
+
+			.card__content {
+				position: absolute;
+				top: 35%;
+				left: 0%;
+				margin-left: 150px;
+				color: white;
+				width: 300px;
+				height: 100px;
+				background-color: rgba(0, 0, 0, 0.8);
+
+				h1 {
+					font-size: 3em;
+					font-weight: 450;
+					width: 50vw;
+					max-width: 600px;
+				}
+
+				button {
+					padding: 15px 20px;
+					font-size: 0.9em;
+					font-weight: 600;
+					margin-top: 20px;
+					margin-left: 20px;
+					cursor: pointer;
+					border: none;
+					outline: none;
+					color: whitesmoke;
+					transition: all 0.5s ease-in-out;
+					background-image: linear-gradient(135deg, #4a2f88, #094fcd);
+
+					&:hover {
+						background-image: linear-gradient(135deg, #094fcd, #094fcd);
+					}
+				}
+			}
+		}
+	}
+	.card__one {
+		background-image: linear-gradient(
+				to bottom,
+				rgba(0, 0, 0, 0.2),
+				rgba(0, 0, 0, 0.1)
+			),
+			url('../img/header-1.jpg');
+		background-position: top;
+	}
+	.card__two {
+		background-image: linear-gradient(
+				to bottom,
+				rgba(0, 0, 0, 0.2),
+				rgba(0, 0, 0, 0.2)
+			),
+			url('../img/header-2.jpg');
+		background-position: top;
+	}
+	.card__three {
+		background-image: linear-gradient(
+				to bottom,
+				rgba(0, 0, 0, 0.2),
+				rgba(0, 0, 0, 0.2)
+			),
+			url('../img/header-3.jpg');
+		background-position: center;
+	}
+}
+
+//     <!-- header code ends here -->

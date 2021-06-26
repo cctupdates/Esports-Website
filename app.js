@@ -22,3 +22,7 @@ navForm.addEventListener('submit', (e) => {
   searchComponent.classList.toggle('search_component_visible')
 })
 
+// <!-- header code here -->
+    
+
+//     <!-- header code ends here -->
