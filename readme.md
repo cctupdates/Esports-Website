@@ -17,6 +17,7 @@
 </p>
 
 <p align='center'><b>Live Demo : <a>https://webocode-esports-aimbot.netlify.app </a> </b></p>
+Github Pages link-> [https://cctupdates.github.io/WebOCode-repo/]
 
 
 <!-- TABLE OF CONTENTS -->
@@ -90,6 +91,23 @@ These are the files included in our project-
 
 •	index.html
 
+
+## Problems Faced and resolved:
+1. woring on tems on github was a new experiance for us,but with some mistakes and improvement we got it.
+2. Making the wesbite responsive was also bit challenging with such a huge codebase but we did it somehow.
+
+## New Things Learned:
+1. Working with plain css animations and also with libraries for animation purposes.
+2. Team work and coordination
+
+# Screenshots:
+![image](https://user-images.githubusercontent.com/50107470/123552315-37b97f00-d793-11eb-8e09-2fb6fad0984c.png)
+![image](https://user-images.githubusercontent.com/50107470/123552323-41db7d80-d793-11eb-9929-cca9bd87d85f.png)
+![image](https://user-images.githubusercontent.com/50107470/123552338-4d2ea900-d793-11eb-8b85-38a982675097.png)
+![image](https://user-images.githubusercontent.com/50107470/123552330-4869f500-d793-11eb-819b-e1ed4bd77c87.png)
+![image](https://user-images.githubusercontent.com/50107470/123552341-50299980-d793-11eb-95b9-c54c661b5f64.png)
+![image](https://user-images.githubusercontent.com/50107470/123552360-60da0f80-d793-11eb-958b-3d4b3730c785.png)
+![image](https://user-images.githubusercontent.com/50107470/123552319-3d16c980-d793-11eb-9b14-516c57234cd8.png)
 
 
 
