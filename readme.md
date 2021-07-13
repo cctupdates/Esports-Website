@@ -16,8 +16,8 @@
   </p>
 </p>
 
-<p align='center'><b>Live Demo : <a>https://webocode-esports-aimbot.netlify.app </a> </b></p>
-Github Pages link-> [https://cctupdates.github.io/WebOCode-repo/]
+<p align='center'><b>Live Demo : <a>[https://webocode-esports-aimbot.netlify.app] </a> </b></p>
+Github Pages link-> [https://cctupdates.github.io/Esports-Website/]
 
 
 <!-- TABLE OF CONTENTS -->
